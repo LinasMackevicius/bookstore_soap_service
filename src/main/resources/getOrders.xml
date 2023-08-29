@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://www.springframework.org/schema/web-services">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getBookOrderRequest>
+            <us:id>1</us:id>
+        </us:getBookOrderRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
